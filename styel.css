@@ -1,0 +1,58 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    font-size: 2.5em;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.energy-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.energy-card {
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.energy-card:hover {
+    transform: scale(1.08);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+
+.icon {
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px 0;
+    text-transform: uppercase;
+    color: #222;
+}
+
+p {
+    font-size: 1.1em;
+    color: #555;
+}
